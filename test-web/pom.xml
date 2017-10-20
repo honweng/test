@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.honweng</groupId>
 	<artifactId>test-web</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.2.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<build>
@@ -27,6 +27,7 @@
 					<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 					<versionTagPrefix />
 					<noDeploy>true</noDeploy>
+					<noReleaseMerge>true</noReleaseMerge>
 				</configuration>
 			</plugin>
 		</plugins>
