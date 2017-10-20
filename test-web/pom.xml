@@ -26,6 +26,7 @@
 					<releaseBranchPrefix>release-</releaseBranchPrefix>
 					<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
 					<versionTagPrefix />
+					<noDeploy>true</noDeploy>
 				</configuration>
 			</plugin>
 		</plugins>
